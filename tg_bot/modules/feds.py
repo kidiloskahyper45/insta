@@ -37,12 +37,12 @@ import tg_bot.modules.sql.feds_sql as sql
 # Federation update v2 by Ayra Hikari 2019
 #
 # Time spent on feds = 10h by #MrYacha
-# Time spent on reworking on the whole feds = 22+ hours by @RealAkito
-# Time spent on updating version to v2 = 26+ hours by @AyraHikari
+# Time spent on reworking on the whole feds = 22+ hours by @cyberw4rriors
+# Time spent on updating version to v2 = 26+ hours by @cyberw4rriors
 #
 # Total spended for making this features is 68+ hours
 
-LOGGER.info("Original federation module by MrYacha, reworked by Mizukito Akito (@RealAkito) on Telegram.")
+LOGGER.info("Original federation module by @cyberw4rriors on Telegram.")
 
 def escape_html(word):
     return escape(word)
