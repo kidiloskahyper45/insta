@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# Developed by @cyberw4rriors
+# Modified by meh 😑 
+# (c) cyberw4rriors
+
+# the logging things
 import html
 from io import BytesIO
 from typing import Optional, List
