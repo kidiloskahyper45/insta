@@ -11,7 +11,7 @@ The Support group can be reached out to at [Support](https://t.me/Pr_o_To), wher
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rushichoksi/Anie-Robot-Master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kidiloskahyper45/insta)
 
 ### Configuration
 
