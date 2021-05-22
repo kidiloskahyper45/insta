@@ -37,7 +37,7 @@ Click Help button to find out more about how to use me.
 
 So what are you waiting for? Add me in your groups and give full right to make me function well
 
-JOIN [Support](t.me/HOT_MEMES1) IF YOU NEED ANY HELP 
+JOIN [Support](t.me/HOT_MEMES08) IF YOU NEED ANY HELP 
 
 
 """
@@ -149,7 +149,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             chat = update.effective_chat  # type: Optional[Chat]
             text = PM_START_TEXT
     
-            keyboard = [[InlineKeyboardButton(text="Support Group", url="https://t.me/um_comehere"),
+            keyboard = [[InlineKeyboardButton(text="Support Group", url="https://t.me/HOT_MEMS08"),
                 InlineKeyboardButton(text="🔧Updates", url="https://t.me/insta_HOTvibe")]]
             keyboard += [[InlineKeyboardButton(text=" Language", callback_data="set_lang_"), 
                 InlineKeyboardButton(text="❓Help", callback_data="help_back")]]
