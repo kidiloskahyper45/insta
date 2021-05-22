@@ -28,7 +28,7 @@ from tg_bot.modules.translations.strings import tld
 PM_START_TEXT = """
 
 
-Hey there *{}*, My name is `Isabella` I'm here to help you manage your groups!
+Hey there *{}*, My name is `Aletta Ocean` I'm here to help you manage your groups!
 
 I'm here to make your group management fun and easy!
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
@@ -37,7 +37,7 @@ Click Help button to find out more about how to use me.
 
 So what are you waiting for? Add me in your groups and give full right to make me function well
 
-JOIN [Support](t.me/TGB_Support) IF YOU NEED ANY HELP 
+JOIN [Support](t.me/HOT_MEMES1) IF YOU NEED ANY HELP 
 
 
 """
@@ -149,17 +149,17 @@ def start(bot: Bot, update: Update, args: List[str]):
             chat = update.effective_chat  # type: Optional[Chat]
             text = PM_START_TEXT
     
-            keyboard = [[InlineKeyboardButton(text="💻Support Group", url="https://t.me/TGB_Support"),
-                InlineKeyboardButton(text="🔧Updates", url="https://t.me/TG_BotZ")]]
-            keyboard += [[InlineKeyboardButton(text="🇮🇳 Language", callback_data="set_lang_"), 
+            keyboard = [[InlineKeyboardButton(text="Support Group", url="https://t.me/um_comehere"),
+                InlineKeyboardButton(text="🔧Updates", url="https://t.me/insta_HOTvibe")]]
+            keyboard += [[InlineKeyboardButton(text=" Language", callback_data="set_lang_"), 
                 InlineKeyboardButton(text="❓Help", callback_data="help_back")]]
-            keyboard += [[InlineKeyboardButton(text="🔌 Add me",url="http://t.me/Queen_isabellabot?startgroup=true")]]
+            keyboard += [[InlineKeyboardButton(text="🔌 Add me",url="http://t.me/MissAletta_Oceanbot?startgroup=true")]]
             
             update.effective_message.reply_text(PM_START_TEXT.format(escape_markdown(first_name), bot.first_name), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=False, parse_mode=ParseMode.MARKDOWN)
 
 
     else:
-        update.effective_message.reply_text("Yes, What Happened?🤧 If You Need Help Type /help")
+        update.effective_message.reply_text("no one gonna help you😆🤣")
 
 
 def send_start(bot, update):
